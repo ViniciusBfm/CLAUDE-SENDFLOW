@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "sendflow": {
+      "command": "/CAMINHO/ABSOLUTO/sendflow-mcp/.venv/bin/python",
+      "args": [
+        "/CAMINHO/ABSOLUTO/sendflow-mcp/server.py"
+      ],
+      "env": {
+        "SENDFLOW_API_KEY": "send_api-coloque_sua_chave_aqui"
+      }
+    }
+  }
+}
